@@ -25,9 +25,25 @@ const schema = a.schema({
       timezone: a.string(),
     })
     .authorization((allow) => [allow.publicApiKey()]),
+
+  Leg: a
+    .model({
+      uuid: a.string(), // Puedes usar .identifier() si quieres que sea clave primaria
+      departure_date: a.date(), // Fecha sin hora
+      company_code: a.string(),
+      number: a.string(),
+      departure_station: a.string(),
+      arrival_station: a.string(),
+      scheduled_departure: a.datetime(), // Fecha con hora
+      scheduled_arrival: a.datetime(),   // Fecha con hora
+      service_type: a.string(),
+      aircraft_type: a.string(),
+      author: a.string(),
+      source: a.string(),
+      timestamp: a.string(),
+    })
+    .authorization((allow) => [allow.publicApiKey()]),
 });
-
-
 
 export type Schema = ClientSchema<typeof schema>;
 
