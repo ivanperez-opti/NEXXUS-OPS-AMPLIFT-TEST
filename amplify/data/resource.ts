@@ -12,7 +12,22 @@ const schema = a.schema({
       content: a.string(),
     })
     .authorization((allow) => [allow.publicApiKey()]),
+
+  Airport: a
+    .model({
+      station_code: a.string(),
+      icao_code: a.string(),
+      name: a.string(),
+      country_code: a.string(),
+      city_code: a.string(),
+      market_code: a.string(),
+      region: a.string(),
+      timezone: a.string(),
+    })
+    .authorization((allow) => [allow.publicApiKey()]),
 });
+
+
 
 export type Schema = ClientSchema<typeof schema>;
 
@@ -26,6 +41,8 @@ export const data = defineData({
     },
   },
 });
+
+
 
 /*== STEP 2 ===============================================================
 Go to your frontend source code. From your client-side code, generate a
