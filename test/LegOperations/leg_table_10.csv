@@ -1,0 +1,4 @@
+"uuid","departure_date","company_code","number","departure_station","arrival_station","scheduled_departure","scheduled_arrival","service_type","aircraft_type","author","source","timestamp","expiration"
+"2023-07-03-OP_3101_SAT","2023-07-03","OP",3101,"SAT","GDL","2023-07-03 19:09:00","2023-07-03 21:07:00","J","32A","IvanPerez","LOCAL","2025-07-14 13:33:42",1754956800
+"2023-07-05-OP_3101_SAT","2023-07-05","OP",3101,"SAT","GDL","2023-07-05 19:09:00","2023-07-05 21:07:00","J","32A","IvanPerez","LOCAL","2025-07-14 13:33:42",1754956800
+"2023-07-06-OP_3101_SAT","2023-07-06","OP",3101,"SAT","GDL","2023-07-06 19:09:00","2023-07-06 21:07:00","J","32A","IvanPerez","LOCAL","2025-07-14 13:33:42",1754956800

@@ -1,0 +1,11 @@
+station_code,icao_code,name,country_code,city_code,market_code,region,timezone
+CVM,MMCV,CIUDAD VICTORIA,MX,CVM,DOM,LOC,America/Monterrey
+CZM,MMCZ,COZUMEL INTL,MX,CZM,DOM,PLA,America/Cancun
+DEN,KDEN,DENVER,US,DEN,INT,USA,America/Denver
+DFW,KDFW,DALLAS-FORT WORTH INT,US,DFW,INT,USA,America/Chicago
+DGO,MMDO,DURANGO,MX,DGO,DOM,LOC,America/Monterrey
+DTW,KDTW,DETROIT,US,DTW,INT,USA,America/Detroit
+EAM,OENG,NEJRAN,SA,EAM,INT,ASI,Asia/Riyadh
+EWR,KEWR,NEWARK-LIBERTY INT,US,NYC,INT,USA,America/New_York
+EZE,SAEZ,EZEIZA MINISTRO PISTARINI,AR,BUE,INT,SUD,America/Argentina/Buenos_Aires
+FAT,KFAT,FRESNO,US,FAT,INT,USA,America/Los_Angeles
